@@ -27,6 +27,8 @@ time.sleep(2)
 
 driver.find_element_by_xpath('//*[@id="main-content"]/div/section/div/div[3]/div/div[3]/ul/li[1]/a').click()
 
+time.sleep(2)
+driver.find_element_by_xpath('//*[@id="take-attendance"]').click()
 #signs back out of BCS for safety purposes
 time.sleep(3)
 driver.find_element_by_xpath('//*[@id="root"]/header/nav/ul/li[4]/a').click()
